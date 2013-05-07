@@ -10,6 +10,7 @@ class people::jabley {
   include gitx::dev
   include gnupg
   include openconnect
+  include pandoc
   include transmission
   include turn-off-dashboard
   include vagrant_gem
