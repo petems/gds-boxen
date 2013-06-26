@@ -4,7 +4,7 @@
 - Either install the [Xcode Command Line Tools][xcode-cli] or install the full Xcode from the Mac App Store. If you do the latter, you also need to explicitly install the Command Line Tools (Open Xcode -> Preferences -> Downloads -> Install Command Line Tools).
 [xcode-cli]: https://developer.apple.com/downloads/index.action
 
-### The following instructions will work for a fresh build or for an already set-up Mac.  
+### The following instructions will work for a fresh build or for an already set-up Mac.
 
     sudo mkdir -p /opt/boxen
     sudo chown ${USER}:admin /opt/boxen
@@ -74,6 +74,10 @@ The following are provided by default:
 * Ruby 1.8.7
 * Ruby 1.9.2
 * Ruby 1.9.3
+* Ruby 2.0.0
+* Node.js 0.4
+* Node.js 0.6
+* Node.js 0.8
 * Ack
 * Findutils
 * GNU-Tar
